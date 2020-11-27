@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="JDA-4.2.0_222-withDependencies" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/sel/client-combined-3.141.59.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Documents/sel/client-combined-3.141.59-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/sel/libs/guava-25.0-jre.jar!/" />
+          <root url="jar://$USER_HOME$/Documents/sel/libs/commons-exec-1.3.jar!/" />
+          <root url="jar://$USER_HOME$/Documents/sel/libs/okio-1.14.0.jar!/" />
+          <root url="jar://$USER_HOME$/Documents/sel/libs/okhttp-3.11.0.jar!/" />
+          <root url="jar://$USER_HOME$/Documents/sel/libs/byte-buddy-1.8.15.jar!/" />
+          <root url="jar://$USER_HOME$/Documents/sel/libs/commons-io-2.8.0/commons-io-2.8.0-tests.jar!/" />
+          <root url="jar://$USER_HOME$/Documents/sel/libs/commons-io-2.8.0/commons-io-2.8.0.jar!/" />
+          <root url="file://$USER_HOME$/Documents/sel" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/Documents/sel/libs/commons-io-2.8.0/commons-io-2.8.0-javadoc.jar!/" />
+          <root url="file://$USER_HOME$/Documents/sel/libs/commons-io-2.8.0/docs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Documents/sel/libs/commons-io-2.8.0/commons-io-2.8.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Documents/sel/libs/commons-io-2.8.0/commons-io-2.8.0-test-sources.jar!/" />
+          <root url="file://$USER_HOME$/Documents/sel" />
+          <root url="file://$USER_HOME$/Documents/sel/libs/commons-io-2.8.0-src/src/main/java" />
+          <root url="file://$USER_HOME$/Documents/sel/libs/commons-io-2.8.0-src/src/test/java" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Documents/sel" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Documents/sel" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
