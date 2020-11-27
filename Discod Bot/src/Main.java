@@ -17,9 +17,9 @@ public class Main {
     public static String prefix ="!";
 
     public static void main(String[] args) throws LoginException, InterruptedException {
-           jda = JDABuilder.createDefault("NzgxNjc0NTQ1NjcyMzU1ODgw.X8BFJg.90VrPrDzgFKcDA_Gp05Qnsi2c6w").build();
+           jda = JDABuilder.createDefault("discord token bot here").build();
            jda.getPresence().setStatus(OnlineStatus.ONLINE);
-          jda.getPresence().setActivity(Activity.playing("doing le weird stuff with saud"));
+          jda.getPresence().setActivity(Activity.playing("status message"));
 
 
         jda.addEventListener(new commands());
