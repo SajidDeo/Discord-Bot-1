@@ -5,14 +5,11 @@ import java.util.concurrent.TimeUnit;
 
 public class wdr {
 
-    int number = 5;
-
     public WebDriver init() {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sajid\\IdeaProjects\\Discod Bot\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", filepath);
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.chegg.com/auth?action=login&redirect=https%3A%2F%2Fwww.chegg.com%2F");
-        //driver.get("https://www.google.com/");
+        driver.get("https://www.google.com/");
         try {
             TimeUnit.SECONDS.sleep(15);
         } catch (InterruptedException e) {
