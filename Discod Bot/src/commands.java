@@ -28,10 +28,10 @@ public class commands extends ListenerAdapter {
         String[] args = event.getMessage().getContentRaw().split(" ");
         if (args[0].equalsIgnoreCase(Main.prefix + "info")) {
             EmbedBuilder info = new EmbedBuilder();
-            info.setTitle("Chegg Bot Information");
-            info.setDescription("To use the bot do: !chegg chegglinkhere. I love you");
+            info.setTitle("title");
+            info.setDescription("set description");
             info.setColor(0xf45642);
-            info.setFooter("Created by Deo", event.getMember().getUser().getAvatarUrl());
+            info.setFooter("Created by SajidDeo", event.getMember().getUser().getAvatarUrl());
 
             event.getChannel().sendTyping().queue();
             event.getChannel().sendMessage(info.build()).queue();
